@@ -1,0 +1,23 @@
+.banner{
+    background-image: url("/img/banner.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.banner__texto{
+    line-height: 4rem;
+    padding: 0 100px;
+}
+
+.banner__texto button{
+    width: 150px;
+    border-radius: 16px;
+    padding: 8px;
+    background: var(--color2);
+    border:none;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+:root{
+    --color1: #AD8117;
+    --color2: #FFCC54;
+    --color3: #FAC139;
+    --color4: #3973faae;
+    --color5: #2951AD;
+}
+
+*, body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.submit:hover, button:hover{
+    transform: scale(1.15);
+}
+
+a:link, a:visited{
+    color: initial;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: 110%;
+}

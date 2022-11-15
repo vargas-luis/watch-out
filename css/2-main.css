@@ -1,0 +1,55 @@
+.productos{
+    margin: 20px 100px;
+}
+
+.prod__titulo{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, var(--color4), #FFFFFF 80%);
+    height: 2rem;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.seccion__productos{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.prod__holder{
+    height: 300px;
+    /* border: 1px solid red; */
+}
+
+.producto{
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
+
+.producto img{
+    height: 150px;
+}
+
+.descripcion{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.precio{
+    font-weight: bold;
+}
+
+.producto a{
+    color: var(--color5);
+    font-weight: 600;
+}
+
+.producto img:hover{
+    transform: scale(1.3);
+    transition-delay: 0.2s;
+}

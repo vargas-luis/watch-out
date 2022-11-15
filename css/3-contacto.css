@@ -1,0 +1,71 @@
+.informacion{
+    background: var(--color4);
+}
+
+.contacto{
+    margin: 40px 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    column-gap: 40px;
+    padding: 40px 0px;
+    line-height: 2rem;
+}
+
+.contacto__logo{
+    width: 25%;
+    /* border: 1px solid rebeccapurple; */
+    text-align: center;
+    margin: auto 0;
+}
+
+.contacto__logo__imagen img{
+    height: 10vw;
+    margin: 2rem 0;
+}
+
+.contacto__logo__texto{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contacto__mapa{
+    width: 25%;
+    color: var(--color5);
+    line-height: 4rem;
+    margin: auto 0;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.contacto__contacto{
+    width: 50%;
+    /* border: 1px solid rebeccapurple; */
+    margin: auto 0;
+}
+
+.contacto__contacto p{
+    font-weight: bold;
+}
+
+form label, form legend{
+    display: block;
+}
+
+.input__contacto{
+    background: white;
+    width: 95%;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid var(--color5);
+    padding: 8px;
+    resize: none;
+}
+
+form button{
+    background: var(--color2);
+    border-radius: 4px;
+    padding: 8px;
+    border-color: var(--color1);
+    margin-left: 10px;
+}
