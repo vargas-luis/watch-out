@@ -6,6 +6,7 @@ Creada con HTML5, CSS y Javascript.
 
 Datos de acceso:
 > Correo electrónico: alura@mail.com
+> 
 > Contraseña: alura321
 
 Dale un vistazo en:
