@@ -25,6 +25,10 @@
     text-decoration: none;
 }
 
-.ainicio:hover{
+.rodapie__img:hover, .ainicio:hover{
     transform: scale(1.15);
+}
+
+.rodapie__img{
+    width: 25px;
 }

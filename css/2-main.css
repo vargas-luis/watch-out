@@ -29,6 +29,7 @@
     text-align: center;
     line-height: 1.5rem;
     margin: 1rem 0;
+    width: 155px;
 }
 
 .producto img{
@@ -38,6 +39,7 @@
 .descripcion{
     font-size: 1.2rem;
     margin-top: 1rem;
+    height: 3rem;
 }
 
 .precio{
