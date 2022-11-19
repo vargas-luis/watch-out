@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="./css/3-contacto.css">
     <link rel="stylesheet" href="./css/4-rodapie.css">
     <link rel="stylesheet" href="./css/5-login.css">
+    <link rel="stylesheet" href="./css/6-producto-display.css">
     <script src="./js/login.js"></script>
+    <script src="./js/pag_prod.js"></script>
     <title>Watch OUT!</title>
 </head>
 
@@ -22,7 +24,8 @@
     <script language="Javascript">
         document.oncontextmenu = function(){return false}
     </script>
-    <div class="ainicio"><a href="#Inicio">↑</a></div>
+    <!-- <div class="ainicio"><a href="#Inicio">↑</a></div> -->
+    <a href="#Inicio"><div class="ainicio">↑</div></a>
     <header class="cabecera">
         <div class="dropdown">
             <a name="Inicio"><img src="./img/logo/logo-full.png" alt="logo" id="cabecera__logo"></a>
@@ -63,12 +66,12 @@
                 <a href="#"><p>Ver Todo ➡</p></a>
             </div>
             <section class="seccion__productos">
-                <div class="prod__holder">
+                <div class="prod__holder" data-producto>
                     <div class="producto">
                         <img src="./img/reloj/prospex_metalico.webp" alt="prospex_metalico">
                         <p class="descripcion">Seiko Prospex Metálico</p>
                         <p class="precio">$ 120.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html">Ver Producto</a>
                     </div>
                 </div>
                 <div class="prod__holder">
@@ -76,7 +79,7 @@
                         <img src="./img/reloj/prospex_street.webp" alt="prospex_street">
                         <p class="descripcion">Seiko Prospex Street</p>
                         <p class="precio">$ 140.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
                 <div class="prod__holder">
@@ -84,7 +87,7 @@
                         <img src="./img/reloj/save_the_ocean.webp" alt="save_the_ocean">
                         <p class="descripcion">Save The Ocean Acero</p>
                         <p class="precio">$ 120.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
                 <div class="prod__holder">
@@ -92,7 +95,7 @@
                         <img src="./img/reloj/save_the_ocean_blue.webp" alt="save_the_ocean_blue"">
                         <p class="descripcion">Save The Ocean Blue</p>
                         <p class="precio">$ 130.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
                 <div class="prod__holder">
@@ -100,7 +103,7 @@
                         <img src="./img/reloj/save_the_ocean_steel.webp" alt="save_the_ocean_steel">
                         <p class="descripcion">Save The Ocean Acero</p>
                         <p class="precio">$ 150.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
                 <div class="prod__holder">
@@ -108,7 +111,7 @@
                         <img src="./img/reloj/speedtimer.webp" alt="speedtimer">
                         <p class="descripcion">Seiko Speedtimer</p>
                         <p class="precio">$ 110.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
             </section>
@@ -126,7 +129,7 @@
                         <img src="./img/cronos/crono (1).webp" alt="cronografo">
                         <p class="descripcion">Seiko Cronógrafo</p>
                         <p class="precio">$ 100.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
                 <div class="prod__holder">
@@ -142,7 +145,7 @@
                         <img src="./img/cronos/crono (3).webp" alt="cronografo">
                         <p class="descripcion">Seiko Cronógrafo</p>
                         <p class="precio">$  100.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
                 <div class="prod__holder">
@@ -150,7 +153,7 @@
                         <img src="./img/cronos/crono (4).webp" alt="cronografo">
                         <p class="descripcion">Seiko Cronógrafo</p>
                         <p class="precio">$ 90.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
                 <div class="prod__holder">
@@ -158,7 +161,7 @@
                         <img src="./img/cronos/crono (5).webp" alt="cronografo">
                         <p class="descripcion">Seiko Cronógrafo</p>
                         <p class="precio">$ 100.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
                 <div class="prod__holder">
@@ -166,7 +169,7 @@
                         <img src="./img/cronos/crono (6).webp" alt="cronografo">
                         <p class="descripcion">Seiko Cronógrafo</p>
                         <p class="precio">$ 120.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
             </section>
@@ -184,7 +187,7 @@
                         <img src="./img/strap/can_black.webp"  alt="canvas_black">
                         <p class="descripcion">Canvas Negro</p>
                         <p class="precio">$ 20.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
                 <div class="prod__holder">
@@ -200,7 +203,7 @@
                         <img src="./img/strap/can_red.webp" alt="canvas_red">
                         <p class="descripcion">Canas Rojo</p>
                         <p class="precio">$ 20.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
                 <div class="prod__holder">
@@ -208,7 +211,7 @@
                         <img src="./img/strap/sil_black.webp"  alt="silicon_negro">
                         <p class="descripcion">Silicón Negro</p>
                         <p class="precio">$ 10.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
                 <div class="prod__holder">
@@ -216,7 +219,7 @@
                         <img src="./img/strap/sil_green.webp"  alt="silicon_green">
                         <p class="descripcion">Silicón Verde</p>
                         <p class="precio">$ 10.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
                 <div class="prod__holder">
@@ -224,7 +227,7 @@
                         <img src="./img/strap/sil_orange.webp"  alt="silicon_orange">
                         <p class="descripcion">Silicón Naranja</p>
                         <p class="precio">$ 10.00</p>
-                        <a href="">Ver Producto</a>
+                        <a href="./pag_prod.html" data-producto>Ver Producto</a>
                     </div>
                 </div>
             </section>
@@ -235,11 +238,12 @@
             <div class="login__data">
                 <h3 class="login__texto">Inicie sesión</h3>
                 <form>
-                    <input type="email" id="login__correo" class="input__login" required placeholder="Escriba su correo electrónico">
+                    <input type="email" id="login__correo" class="input__login" required placeholder="Escriba su correo electrónico" data-correo>
                     <br>
-                    <input type="password" id="login__pass" class="input__login" required placeholder="Escriba su contraseña">
+                    <input type="password" id="login__pass" class="input__login" required placeholder="Escriba su contraseña" data-password>
                     <br>
-                    <button type="submit" id="submit" onclick=login()>Entrar</button>
+                    <button type="submit" id="login" onclick=login()>Entrar</button>
+                    <button type="text" id="cancel" onclick=cancelar()>Cancelar</button>
                 </form>                
             </div>
         </div>
@@ -272,7 +276,7 @@
                         <label for="mensaje">Mensaje</label>
                         <textarea name="caja-mensaje" id="contacto__mensaje" rows="4" class="input__contacto"></textarea>
         
-                        <button type="submit" id="submit">Enviar mensaje</button>
+                        <button type="button" id="submit">Enviar mensaje</button>
                     </form>
                 </div>
             </div>

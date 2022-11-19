@@ -37,3 +37,7 @@ function login(){
     showScreen();
 }
 
+function cancelar(){
+    // console.log(document.querySelector('[data-correo]').value);
+    showScreen();
+}

@@ -23,10 +23,11 @@
 }
 
 .login__data button{
-    width: 40vw;
+    width: 20vw;
     background: var(--color5);
     border-radius: 10px;
     padding: 12px;
     border-color: var(--color5);
     color: aliceblue;
+    margin-inline: 50px;
 }

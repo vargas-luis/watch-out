@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./img/icon.ico"/>
+    <link rel="stylesheet" href="./css/0-reset.css">
+    <link rel="stylesheet" href="./css/0-base.css">
+    <link rel="stylesheet" href="./css/1-cabecera.css">
+    <link rel="stylesheet" href="./css/2-banner.css">
+    <link rel="stylesheet" href="./css/2-main.css">
+    <link rel="stylesheet" href="./css/3-contacto.css">
+    <link rel="stylesheet" href="./css/4-rodapie.css">
+    <link rel="stylesheet" href="./css/5-login.css">
+    <link rel="stylesheet" href="./css/6-producto-display.css">
+    <script src="./js/login.js"></script>
+    <script src="./js/pag_prod.js"></script>
+    <title>Watch OUT!</title>
+</head>
+
+<body>
+    <script language="Javascript">
+        document.oncontextmenu = function(){return false}
+    </script>
+    <!-- <div class="ainicio"><a href="#Inicio">↑</a></div> -->
+    <a href="#Inicio"><div class="ainicio">↑</div></a>
+    <header class="cabecera">
+        <div class="dropdown">
+            <a name="Inicio"><img src="./img/logo/logo-full.png" alt="logo" id="cabecera__logo"></a>
+            <!-- <span id="texto__logo">WATCH OUT!</span>   -->
+
+            <div class="dropdown-content">
+                <nav class="menu">
+                    <ul>
+                      <li><a href="#Inicio" onclick=showScreen()>Inicio</a></li>
+                      <li><a href="#Relojes">Relojes</a></li>
+                      <li><a href="#Cronografos">Cronografos</a></li>
+                      <li><a href="#Correas">Correas</a></li>
+                      <li><a href="#Contacto">Contacto</a></li>
+                    </ul>
+                  </nav>
+            </div>           
+        </div>
+        <form action="/form/submit" method="GET" id="cabecera__buscar"> 
+            <input type="text" name="text" class="search__bar" placeholder="¿Qué deseas buscar?">
+            <input type="submit" name="submit" class="search__submit" value="&#9201">
+        </form>
+        <button id="cabecera__login" onclick="cleanScreen()">LOGIN</button>
+    </header>
+
+    <main class="pagina__producto">
+        <div class="regresar">
+            <a href="index.html#Relojes"><button>←</button></a>
+            
+        </div>
+        <div class="producto__unico"><a name="Producto"></a>
+            <div class="producto__display">
+                    <p class="producto__display__titulo">Seiko Prospex Metálico</p>
+                    <img src="./img/reloj/prospex_metalico.webp" alt="prospex_metalico" class="producto__display__imagen">
+                    <p class="producto__display__precio">$ 120.00</p>
+            </div>
+        </div>
+                
+        <section class="informacion">
+            <a name="Contacto"></a>
+            <div class="contacto">
+                <div class="contacto__logo">
+                    <div class="contacto__logo__imagen"><img src="./img/logo/logo.png" alt="logo"></div>
+                    <div class="contacto__logo__texto">WATCH OUT! &REG;</div>
+                </div>
+                <div class="contacto__mapa">
+                    <ul>
+                        <li><a href="#">Quienes somos</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Programa de fidelidad</a></li>
+                        <li><a href="#">Nuestras tiendas</a></li>
+                        <li><a href="#">Anuncie aquí</a></li>
+                    </ul>
+                </div>
+                <div class="contacto__contacto">
+                    <p class="contacto__texto">Hable con nosotros</p>
+                    <form>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="contacto__nombre" class="input__contacto" required>
+                        
+                        <label for="correoelectronico">E-mail</label>
+                        <input type="email" id="contacto__correo" class="input__contacto" required placeholder="email@dominio.com">
+                                
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="caja-mensaje" id="contacto__mensaje" rows="4" class="input__contacto"></textarea>
+        
+                        <button type="button" id="submit">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="rodapie">
+            <p>Desarrollado por Luis Vargas</p>
+            <p>2022&copy;</p>
+            <a href="https://github.com/vargas-luis" target="_blank"><img src="./img/git.png" alt="github" class="rodapie__img"></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
